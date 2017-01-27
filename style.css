@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  max-width: 1200px;
+}
+
+.top-nav {
+  background-color: #F96938;
+  height: 55px;
+  font-size: 80%;
+}
+
+#free {
+  background-color: #C5522B;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+  margin-left: 70px;
+}
+
+.topnavlink {
+  color: white;
+  padding: 5px;
+  margin-left: 20px;
+  margin-top: 15px ;
+  display: inline-block;
+}
+
+#logo img {
+  margin-left: 70px;
+  height: 120px;
+  width: 120px;
+}
