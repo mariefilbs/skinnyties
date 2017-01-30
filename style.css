@@ -122,14 +122,15 @@ ul {
 }
 
 .current-content {
-  margin-left: 45px;
+  margin: 35px 35px auto;
+  padding-left: 50px;
 }
 
 .four-boxes {
-  width: 165px;
+  width: 155px;
   height: 200px;
   float: left;
-  margin: 30px 30px auto;
+  margin: 17px 17px auto;
 }
 
 .four-boxes h3 {
@@ -148,12 +149,110 @@ ul {
   font-size: 65%;
   font-weight: bold;
   margin-top: -10px;
+
 }
 
 .box-2-subtext {
   color: black;
   font-size: 65%;
   margin-top: 0px;
+  font-weight: bolder;
+
+}
+
+.box-3-subtext {
+  color: black;
+  font-size: 65%;
+  margin-top: 0px;
   font-weight: bold;
-  letter-spacing: 1px;
+}
+
+.box-4-subtext {
+  font-size: 65%;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.box-4-blue {
+  font-size: 65%;
+  color: #33A1FF;
+  font-weight: bold;
+}
+
+.subscribe-me {
+  color: white;
+  background-color: #33A1FF;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+  padding: 3px 15px;
+}
+
+.bottom-content {
+  font-size: 65%;
+  margin: 0px;
+  padding-left: 80px;
+  background-color: #F4F4F4;
+  overflow: auto;
+}
+
+.bottom-list {
+  display: inline-block;
+  float: left;
+  margin: 25px;
+}
+
+.bottom-list p {
+  margin: 0px;
+}
+
+.bottom-right-content {
+  width: 300px;
+  height: 130px;
+  position: relative;
+  float: right;
+  background-color: #A2AFC0;
+  margin-right: 55px;
+  margin-top: 30px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+}
+
+.right-1 {
+  font-size: 250%;
+  color: white;
+  margin: 0px;
+  font-style: italic;
+  padding-left: 9px;
+}
+
+.right-2 {
+  color: white;
+  font-size: 140%;
+  padding-left: 9px;
+  margin: 0px;
+}
+
+.right-3 {
+  color: white;
+  font-size: 140%;
+  padding-left: 9px;
+  margin: 0px;
+  position: absolute;
+}
+
+.contact-us {
+  position: absolute;
+  color: white;
+  background-color: #33A1FF;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  margin-top: 5px;
+  margin-right: -100px;
+  padding: 3px 15px;
+}
+
+
+.footer {
+  clear: both;
 }
