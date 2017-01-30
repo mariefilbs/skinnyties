@@ -2,7 +2,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cairo', sans-serif;
 }
 
 body {
@@ -31,8 +31,129 @@ body {
   display: inline-block;
 }
 
+#logo {
+  display: inline-block;
+}
+
 #logo img {
   margin-left: 70px;
   height: 120px;
   width: 120px;
+}
+
+.navbox1 {
+  position: absolute;
+  top: 60px;
+  left: 170px;
+  letter-spacing: 1px;
+}
+
+.navlink {
+  font-size: 130%;
+  padding: 11px;
+  margin: 20px auto;
+  display: inline-block;
+  color: grey;
+}
+
+.menu-topright {
+  float: right;
+}
+
+ul {
+  list-style: none;
+}
+
+.sample-box{
+  height: 275px;
+  background-color: #F4F4F4;
+  padding-left: 65px;
+  position: relative;
+}
+
+
+
+.sample-ties img {
+  float: left;
+  height: 120px;
+  width: 80px;
+  padding-left: 15px;
+}
+
+.motto {
+  clear: both;
+  font-size: 300%;
+  padding-left: 175px;
+  padding-top: 35px;
+  letter-spacing: 3px;
+}
+
+.products {
+  margin-left: 35px;
+}
+
+.products img {
+  width: 245px;
+  height: 155px;
+  float: left;
+  margin: 20px auto;
+  margin-left: 20px;
+  border: 2px solid #EFEFEF;
+  border-radius: 3px;
+}
+
+
+.history {
+  clear: both;
+  text-align: center;
+}
+
+.history-description {
+  font-style: italic;
+  font-size: 160%;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+.history-view {
+  color: #33A1FF;
+  letter-spacing: 3px;
+  font-size: 90%;
+}
+
+.current-content {
+  margin-left: 45px;
+}
+
+.four-boxes {
+  width: 165px;
+  height: 200px;
+  float: left;
+  margin: 30px 30px auto;
+}
+
+.four-boxes h3 {
+  margin: 0px;
+}
+
+.four-boxes img {
+  width: 180px;
+  height: 105px;
+  border: 2px solid #EFEFEF;
+  border-radius: 3px;
+}
+
+.box-1-subtext {
+  color: #33A1FF;
+  font-size: 65%;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.box-2-subtext {
+  color: black;
+  font-size: 65%;
+  margin-top: 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
