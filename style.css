@@ -11,7 +11,7 @@ body {
 
 .top-nav {
   background-color: #F96938;
-  height: 55px;
+  height: 65px;
   font-size: 80%;
 }
 
@@ -53,6 +53,21 @@ body {
   padding: 11px;
   margin: 20px auto;
   display: inline-block;
+  color: grey;
+}
+
+.menu-topright {
+  margin-right: 65px;
+  margin-top: 14px
+}
+
+.sign-in {
+  font-size: 70%;
+  color: grey;
+}
+
+.register {
+  font-size: 70%;
   color: grey;
 }
 
@@ -174,7 +189,7 @@ ul {
 }
 
 .box-4-blue {
-  font-size: 65%;
+  font-size: 70%;
   color: #33A1FF;
   font-weight: bold;
 }
